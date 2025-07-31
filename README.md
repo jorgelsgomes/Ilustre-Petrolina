@@ -43,6 +43,7 @@ O sistema possui dois usuários válidos:
 - Carregamento automático das imagens do JSON
 - Design moderno com hover effects
 - Link para login de administrador
+- **Visualização em Tela Cheia**: Clique na imagem para abrir em um modal fullscreen com legenda.
 
 ### Sistema de Login (login.html)
 - Validação de credenciais

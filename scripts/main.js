@@ -1,5 +1,21 @@
 // main.js - Script principal para a galeria
+// Fechar modal ao clicar fora da imagem
 document.addEventListener('DOMContentLoaded', function() {
+    const modal = document.getElementById('fullscreenModal');
+    
+    modal.addEventListener('click', function(e) {
+        if (e.target === modal) {
+            closeFullscreen();
+        }
+    });
+    
+    // Fechar modal com tecla ESC
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && modal.classList.contains('active')) {
+            closeFullscreen();
+        }
+    });
+    
     loadGallery();
 });
 
@@ -47,10 +63,18 @@ function createGalleryItem(image) {
         imageSrc = `images/${image.filename}`;
     }
     
-    item.innerHTML = `
-        <img src="${imageSrc}" alt="${image.caption}" loading="lazy">
-        <div class="gallery-caption">${image.caption}</div>
-    `;
+    const img = document.createElement('img');
+    img.src = imageSrc;
+    img.alt = image.caption;
+    img.loading = 'lazy';
+    img.onclick = () => openFullscreen(imageSrc, image.caption);
+    
+    const caption = document.createElement('div');
+    caption.className = 'gallery-caption';
+    caption.textContent = image.caption;
+    
+    item.appendChild(img);
+    item.appendChild(caption);
     
     return item;
 }
@@ -58,5 +82,27 @@ function createGalleryItem(image) {
 // Função para atualizar a galeria (chamada após upload)
 function refreshGallery() {
     loadGallery();
+}
+
+
+
+// Funções para modal de tela cheia
+function openFullscreen(imageSrc, caption) {
+    const modal = document.getElementById('fullscreenModal');
+    const fullscreenImage = document.getElementById('fullscreenImage');
+    const fullscreenCaption = document.getElementById('fullscreenCaption');
+    
+    fullscreenImage.src = imageSrc;
+    fullscreenImage.alt = caption;
+    fullscreenCaption.textContent = caption;
+    
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden'; // Previne scroll da página
+}
+
+function closeFullscreen() {
+    const modal = document.getElementById('fullscreenModal');
+    modal.classList.remove('active');
+    document.body.style.overflow = 'auto'; // Restaura scroll da página
 }
 
