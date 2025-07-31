@@ -2,25 +2,25 @@
   "images": [
     {
       "id": 1,
-      "filename": "01.jpg",
+      "filename": "01.png",
       "caption": "Antiga Estação Ferroviária de Petrolina",
       "uploadDate": "2025-07-31"
     },
     {
       "id": 2,
-      "filename": "02.jpg",
+      "filename": "02.png",
       "caption": "Catedral do Sagrado Coração de Jesus Cristo Rei Diocese de Petrolina",
       "uploadDate": "2025-07-31"
     },
     {
       "id": 3,
-      "filename": "03.jpg",
+      "filename": "03.png",
       "caption": "Ruas da Petrolina Antiga",
       "uploadDate": "2025-07-31"
     },
     {
       "id": 4,
-      "filename": "04.jpg",
+      "filename": "04.png",
       "caption": "Ponte Presidente Dutra",
       "uploadDate": "2025-07-31"
     }
