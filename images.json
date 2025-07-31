@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "filename": "sample1.jpg",
+      "caption": "Exemplo de imagem 1",
+      "uploadDate": "2025-01-01"
+    },
+    {
+      "id": 2,
+      "filename": "sample2.jpg",
+      "caption": "Exemplo de imagem 2",
+      "uploadDate": "2025-01-01"
+    }
+  ]
+}
+

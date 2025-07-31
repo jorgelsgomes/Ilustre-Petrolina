@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administração - Ilustre Petrolina</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Ilustre Petrolina - Administração</h1>
+        <nav>
+            <a href="index.html">Ver Galeria</a>
+            <a href="#" id="logoutBtn">Sair</a>
+        </nav>
+    </header>
+    <main class="admin-main">
+        <section class="upload-section">
+            <h2>Adicionar Nova Imagem</h2>
+            <form id="uploadForm">
+                <div class="form-group">
+                    <label for="imageFile">Selecionar Imagem:</label>
+                    <input type="file" id="imageFile" name="imageFile" accept="image/*" required>
+                </div>
+                <div class="form-group">
+                    <label for="imageCaption">Legenda:</label>
+                    <input type="text" id="imageCaption" name="imageCaption" required>
+                </div>
+                <button type="submit">Adicionar à Galeria</button>
+            </form>
+        </section>
+        
+        <section class="current-images">
+            <h2>Imagens Atuais</h2>
+            <div id="adminGallery" class="admin-gallery">
+                <!-- Imagens atuais serão carregadas aqui -->
+            </div>
+        </section>
+    </main>
+    <script src="scripts/admin.js"></script>
+</body>
+</html>
+
