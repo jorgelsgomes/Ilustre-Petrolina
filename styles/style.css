@@ -32,19 +32,47 @@ header {
     align-items: center;
 }
 
-/* Logo centralizada */
-.logo {
-    width: 180px;
-    max-width: 90%;
+/* LOGO centralizada */
+header img {
     display: block;
     margin: 0 auto;
+    max-width: 180px; /* você pode ajustar */
 }
 
-/* Links abaixo da logo */
-.header-links {
-    margin-top: 0.8rem;
-    text-align: center;
+/* Links centrais */
+.menu-centro {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* espaço entre os links */
 }
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.menu-link:hover {
+    border-color: white;
+    transform: translateY(-2px);
+}
+
+/* Login no canto direito */
+header nav {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+header nav a {
+    margin-right: 0;
+}
+
 
 .header-links h6 {
     margin: 4px 0;
