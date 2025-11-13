@@ -60,7 +60,7 @@ function createGalleryItem(image) {
     if (localImage) {
         imageSrc = localImage;
     } else {
-        imageSrc = `images/${image.filename}`;
+        imageSrc = `images/01-Galeria de Artes/${image.filename}`;
     }
     
     const img = document.createElement('img');
