@@ -21,9 +21,92 @@
     {
       "id": 4,
       "filename": "04.png",
-      "caption": "Ponte Presidente Dutra",
+      "caption": "Barquinha da travessia Petrolina/Juazeiro",
       "uploadDate": "2025-07-31"
+    },
+    {
+      "id": 5,
+      "filename": "05.png",
+      "caption": "Ilha do Fogo",
+      "uploadDate": "2025-11-13"
+    },
+    {
+      "id": 6,
+      "filename": "06.png",
+      "caption": "Feira popular",
+      "uploadDate": "2025-11-13"
+    },
+    {
+      "id": 7,
+      "filename": "07.png",
+      "caption": "Estátua do Bodódromo",
+      "uploadDate": "2025-11-13"
+    },
+    {
+      "id": 8,
+      "filename": "08.png",
+      "caption": "Monumento da Besta",
+      "uploadDate": "2025-11-13"
+    },
+    {
+      "id": 9,
+      "filename": "09.png",
+      "caption": "Ponte Presidente Dutra",
+      "uploadDate": "2025-11-13"
+    },
+   {
+      "id": 10,
+      "filename": "cor01.png",
+      "caption": "Antiga Estação Ferroviária de Petrolina colorida",
+      "uploadDate": "2025-11-13"
+    },
+    {
+      "id": 11,
+      "filename": "cor02.png",
+      "caption": "Catedral do Sagrado Coração de Jesus Cristo Rei Diocese de Petrolina colorida",
+      "uploadDate": "2025-11-13"
+    },
+    {
+      "id": 12,
+      "filename": "cor03.png",
+      "caption": "Ruas da Petrolina Antiga colorida",
+      "uploadDate": "2025-11-13"
+    },
+    {
+      "id": 13,
+      "filename": "cor04.png",
+      "caption": "Barquinha da travessia Petrolina/Juazeiro colorida",
+      "uploadDate": "2025-11-13"
+    },
+    {
+      "id": 14,
+      "filename": "cor05.png",
+      "caption": "Ilha do Fogo colorida",
+      "uploadDate": "2025-11-13"
+    },
+    {
+      "id": 15,
+      "filename": "cor06.png",
+      "caption": "Feira popular colorida",
+      "uploadDate": "2025-11-13"
+    },
+    {
+      "id": 16,
+      "filename": "cor07.png",
+      "caption": "Estátua do Bodódromo colorida",
+      "uploadDate": "2025-11-13"
+    },
+    {
+      "id": 17,
+      "filename": "cor08.png",
+      "caption": "Monumento da Besta colorida",
+      "uploadDate": "2025-11-13"
+    },
+    {
+      "id": 18,
+      "filename": "cor09.png",
+      "caption": "Ponte Presidente Dutra colorida",
+      "uploadDate": "2025-11-13"
     }
   ]
 }
-
