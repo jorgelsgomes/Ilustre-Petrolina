@@ -4,17 +4,17 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 /* -------------------------------------------------------------------
    HEADER
 ------------------------------------------------------------------- */
 header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 1rem 2rem;
+    background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
+    color: rgb(0, 0, 0);
+    padding: 0;
     display: flex;
     justify-content: space-between; /* Login à direita */
     align-items: center;
@@ -37,7 +37,7 @@ header {
 header img {
     display: block;
     margin: 0 auto;
-    max-width: 350px; /* você pode ajustar */
+    max-width: 40%; /* você pode ajustar */
 }
 
 /* Links centrais */
@@ -49,7 +49,7 @@ header img {
 }
 
 .menu-link {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
@@ -59,7 +59,7 @@ header img {
 }
 
 .menu-link:hover {
-    border-color: white;
+    border-color: rgb(0, 0, 0);
     transform: translateY(-2px);
 }
 
@@ -85,16 +85,16 @@ header nav a {
 /* Admin Login à direita */
 .header-right a {
     margin-left: auto;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 0.5rem 1rem;
-    border: 1px solid rgba(255,255,255,0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 25px;
     transition: all 0.3s ease;
 }
 
 .header-right a:hover {
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
 }
 
@@ -103,7 +103,7 @@ header nav a {
 ------------------------------------------------------------------- */
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap: 15px;
     padding: 20px;
 }
@@ -118,7 +118,7 @@ header nav a {
 }
 
 .gallery-grid img:hover {
-    transform: scale(1.03);
+    transform: scale(1.1);
     box-shadow: 0 6px 15px rgba(0,0,0,0.15);
 }
 
@@ -164,14 +164,14 @@ header nav a {
     position: absolute;
     right: 25px;
     top: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 40px;
     cursor: pointer;
     transition: color 0.3s ease;
 }
 
 .close-fullscreen:hover {
-    color: #bbb;
+    color: #000000;
 }
 
 /* -------------------------------------------------------------------
