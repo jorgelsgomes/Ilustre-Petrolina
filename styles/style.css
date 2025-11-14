@@ -23,20 +23,21 @@ header {
 
 /* Estrutura do header */
 .header-left {
+    align-items: center;
     width: 80px; /* Apenas para balancear visualmente */
 }
 
 .header-center {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 100%;
 }
 
 /* LOGO centralizada */
 header img {
     display: block;
     margin: 0 auto;
-    max-width: 180px; /* você pode ajustar */
+    max-width: 350px; /* você pode ajustar */
 }
 
 /* Links centrais */

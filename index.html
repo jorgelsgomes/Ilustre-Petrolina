@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ilustre Petrolina</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
     <header>
-        <div class="header-left"></div>
-
-            <div class="header-center">
-                <img src="/images/Logo do projeto/logo sem fundo.png" alt="" class="logo">
         
-<div class="menu-centro">
-    <a href="#" class="menu-link">Galeria de Artes</a>
-    <a href="#" class="menu-link">Sobre o Projeto</a>
-    <a href="#" class="menu-link">Sobre o Autor</a>
-</div>
-
-    </div>
-
-    <nav class="header-right">
-        <a href="login.html">Admin Login</a>
-    </nav>
+        <div class="header-center">
+            <img src="/images/Logo do projeto/logo sem fundo.png" alt="" class="logo">
+            
+            <div class="menu-centro">
+                <a href="#" class="menu-link">Galeria de Artes</a>
+                <a href="#" class="menu-link">Sobre o Projeto</a>
+                <a href="#" class="menu-link">Sobre o Autor</a>
+            </div>
+            
+        </div>
+        <div class="header-left">
+            <nav class="header-right">
+            <a href="login.html">Admin Login</a>
+            </nav>
+        </div>
     </header>
     <main>
         <section id="gallery" class="gallery-grid">
             <!-- Imagens serão carregadas aqui pelo JavaScript -->
         </section>
     </main>
-    
+
     <!-- Modal de tela cheia -->
     <div id="fullscreenModal" class="fullscreen-modal">
         <span class="close-fullscreen" onclick="closeFullscreen()">&times;</span>
@@ -39,8 +41,8 @@
             <div id="fullscreenCaption" class="fullscreen-caption"></div>
         </div>
     </div>
-    
+
     <script src="scripts/main.js"></script>
 </body>
-</html>
 
+</html>
