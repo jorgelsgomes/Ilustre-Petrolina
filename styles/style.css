@@ -19,9 +19,8 @@ header {
     color: rgb(0, 0, 0);
     padding: 0;
     display: flex;
-    justify-content: space-between; /* Login à direita */
-    align-items: center;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    flex-direction: column;
 }
 
 /* Estrutura do header */
@@ -111,7 +110,7 @@ main {
 /* Gallery Grid */
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px , 3fr));
     gap: 2rem;
     margin-top: 2rem;
 }
@@ -145,7 +144,7 @@ main {
     text-align: center;
     font-size: 1.1rem;
     color: #000000;
-    background: linear-gradient(45deg, #ffffff, #ffffff);
+    background: linear-gradient(45deg, #ffffff);
 }
 
 /* Login page styles */
@@ -319,35 +318,7 @@ button[type="submit"]:hover {
 }
 
 /* Responsive design */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        gap: 1rem;
-        text-align: center;
-    }
 
-    header h1 {
-        font-size: 1.5rem;
-    }
-
-    main {
-        padding: 1rem;
-    }
-
-    .gallery-grid {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-
-    .login-container {
-        margin: 2rem auto;
-        padding: 1.5rem;
-    }
-
-    .admin-main {
-        padding: 1rem;
-    }
-}
 
 /* Loading animation */
 .loading {
@@ -473,6 +444,64 @@ button[type="submit"]:hover {
 .gallery-item:hover::after {
     opacity: 1;
 }
+ 
+.lei {
+    width: 60%;
+    
+}
+
+.logo-lei-paulo-gustavo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.about-project-container {
+     max-width: 80%;
+    margin: 5rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+.about-project-container h2 {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.about-author-container {
+    max-width: 60%;
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+.about-author-container h2 {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.photo-author {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 10%;
+}
+
+.photo-author img {
+    width: 400px;
+    border-radius: 100%;
+}
+
+.body-author {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+}
 
 /* Animações */
 @keyframes fadeIn {
@@ -497,6 +526,13 @@ button[type="submit"]:hover {
 
 /* Responsividade para mobile */
 @media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: 1fr
+    }
+
+    .gallery-item {
+        margin-bottom: 2rem;
+    }
     .fullscreen-content {
         max-width: 95%;
         max-height: 95%;
@@ -517,5 +553,27 @@ button[type="submit"]:hover {
         font-size: 30px;
         width: 40px;
         height: 40px;
+    }
+    header {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    .login-container {
+        margin: 2rem auto;
+        padding: 1.5rem;
+    }
+
+    .admin-main {
+        padding: 1rem;
     }
 }
