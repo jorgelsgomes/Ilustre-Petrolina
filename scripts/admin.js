@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (localImage) {
             imageSrc = localImage;
         } else {
-            imageSrc = `images/${image.filename}`;
+            imageSrc = `images/01-Galeria de Artes/${image.filename}`;
         }
         
         item.innerHTML = `
