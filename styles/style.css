@@ -604,11 +604,11 @@ margin: 25px
 }
 
 .lei {
-    width: 80%;
+    width: 100%;
 }
 
 .logo-lei-paulo-gustavo {
-    width: 100%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
