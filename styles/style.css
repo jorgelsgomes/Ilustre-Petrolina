@@ -109,8 +109,8 @@ main {
 /* Gallery Grid */
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px , 3fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(500px , 3fr));
+    gap: 3rem;
     margin-top: 2rem;
 }
 
@@ -273,7 +273,7 @@ button[type="submit"]:hover {
 
 .admin-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
     gap: 1rem;
 }
 
@@ -530,7 +530,7 @@ button[type="submit"]:hover {
     }
 
     .gallery-item {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
     .fullscreen-content {
         max-width: 95%;
