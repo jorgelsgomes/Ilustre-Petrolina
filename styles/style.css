@@ -104,12 +104,13 @@ header nav a {
 main {
     margin: 0 auto;
     padding: 2rem;
+
 }
 
 /* Gallery Grid */
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px , 3fr));
+    grid-template-columns: repeat(auto-fit, minmax(450px , 3fr));
     gap: 3rem;
     margin-top: 2rem;
 }
